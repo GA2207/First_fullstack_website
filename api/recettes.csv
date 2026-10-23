@@ -1,0 +1,114 @@
+﻿id;nom;categorie;temps_preparation
+1;Macaron Chocolat;Macarons;45
+2;Macaron Pistache;Macarons;45
+3;Macaron Citron;Macarons;45
+4;Garniture macaron café grillé;Garniture;45
+5;Garniture macaron pistache;Garniture;45
+6;Garniture macaron vanille;Garniture;45
+7;Garniture macaron coco;Garniture;45
+8;Crème caramel au beurre salé;Crème;15
+9;Chantilly mascarpone;Crème;15
+10;Crème Carambar & Tonka;Crème;15
+11;Crème framboise;Crème;15
+12;Crème citron;Crème;15
+13;Garniture macaron chocolat;Garniture;45
+14;Crème mascarpone Pistache;Crème;15
+15;Brioche (Note);Viennoiserie;30
+16;Cookies du sportif;Biscuits;14
+17;Cookies Chocolat;Biscuits;9
+18;Crémeux caramel;Crème;15
+19;Appareil à quiche;Salé;15
+20;Pâte brisée;Pâte;30
+21;Pâte à pain;Boulangerie;30
+22;Saba;Viennoiserie;30
+23;Crème d'amande;Crème;15
+24;Crème d'amande pistache;Crème;15
+25;Crème mascarpone vanille;Crème;15
+26;Croustillant pâte à choux noisette;Garniture;30
+27;Confit de poire;Compote;15
+28;Marmelade de poire;Compote;15
+29;Financier (Délice d'Éthane);Biscuits;20
+30;Gelée passion;Gelée;15
+31;Glaçage citron;Glaçage;15
+32;Cake marbré chocolat, pistache et griottes;Cake;25
+33;Pâte levée feuilletée;Viennoiserie;8
+34;Chantilly vanille tonka;Crème;15
+35;Poires pochées;Fruit;15
+36;Pâte à baba;Pâte;30
+37;Sirop baba;Sirop;15
+38;Feuilletage inversé (Beurre manié);Pâte;30
+39;Feuilletage inversé (Pâte de base);Pâte;30
+40;Brioches feuilletées;Viennoiserie;30
+41;Crème café blanc;Crème;15
+42;Crémeux chocolat Manjari;Crème;15
+43;Crème caramel (petits pots);Crème;15
+44;Crème Pistache carte;Crème;15
+45;Crémeux chocolat Guanaja;Crème;15
+46;Crémeux Gianduja;Crème;15
+47;Glaçage noir;Glaçage;15
+48;Pâte Pepitos chocolat;Pâte;30
+49;Pâte sucrée salée;Pâte;30
+50;Mousse mascarpone;Mousse;15
+51;Croissant (Tableau);Viennoiserie;30
+52;Brioche (Tableau);Viennoiserie;30
+53;Crème praliné;Crème;15
+54;Crème citron (Tableau);Crème;15
+55;Glaçage fraise;Glaçage;15
+56;Coulis gelifié exotique;Coulis;15
+57;Amandes sablé;Garniture;15
+58;Crème coco;Crème;15
+59;Crème amande (Tableau);Crème;15
+60;Crumble pistache;Garniture;15
+61;Craquant amandes;Garniture;15
+62;Coulis mangue;Coulis;15
+63;Crème mangue;Crème;15
+64;Ganache Coco;Ganache;15
+65;Caramel noisette;Caramel;15
+66;Cake Malaga (Insert);Cake;25
+67;Cake Malaga (Appareil);Cake;25
+68;Cake Malaga (Sirop);Sirop;15
+69;Compote fruits rouges (Insert);Compote;15
+70;Mousse chocolat;Mousse;15
+71;Biscuit chocolat sacher chocolat;Biscuit;20
+72;Biscuit chocolat sans farine;Biscuit;20
+73;Crème pâtissière St Honoré;Crème;15
+74;Crème anglaise (Base);Crème;15
+75;Crème brûlée;Crème;15
+76;Crème citron (Base);Crème;15
+77;Crème légère;Crème;15
+78;Crème praliné (Paris Antibes);Crème;15
+79;Glaçage lait;Glaçage;15
+80;Crème vanille carte;Crème;15
+81;Crémeux framboise;Crémeux;15
+82;Crémeux pistache;Crémeux;15
+83;Crémeux carambar (Bristol);Crémeux;15
+84;Chantilly chocolat lait;Chantilly;15
+85;Chantilly cassis;Chantilly;15
+86;Crème au beurre;Crème;15
+87;Pâte de marron à l'armagnac;Garniture;30
+88;Compotée de myrtille;Compote;15
+89;Chantilly vanille;Chantilly;15
+90;Crème au marron;Crème;15
+91;Biscuit savoie;Biscuit;20
+92;Biscuit cuillère;Biscuit;20
+93;Biscuit financier blanc monté;Biscuit;20
+94;Génoise;Biscuit;20
+95;Bavaroise chocolat (Michalak);Entremets;15
+96;Biscuit pain de gênes;Biscuit;12
+97;Biscuit Joconde;Biscuit;20
+98;Biscuit cuillère chocolat (Michalak);Biscuit;20
+99;Punch des îles (Sirop brioche);Sirop;30
+100;Sablé breton;Biscuit;20
+101;Pâte feuilletée (Classique);Pâte;18
+102;Pâte brisée (Flan parisien);Pâte;30
+103;Flan parisien (Appareil);Flan;25
+104;Bugnes;Viennoiserie;30
+105;Pâte à pain au lait;Boulangerie;30
+106;Pâte à crêpes;Pâte;30
+107;Gaufres (Bristol);Pâte;30
+108;Pâte à choux;Pâte;30
+109;Pâte à cigarette;Pâte;30
+110;Gâteau Basque;Gâteau;25
+111;Sablé Viennois;Biscuit;20
+112;Streusel noisette;Garniture;15
+113;Tarte au Sucre;Tarte;25

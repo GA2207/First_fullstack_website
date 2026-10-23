@@ -1,0 +1,251 @@
+﻿id;recette_id;nom_ingredient;quantite;unite
+1;1;Tant pour tant amande;2000;Gr
+2;1;Blancs d'oeufs;350;Gr
+3;1;Colorant Rouge framboise;1;Gr
+4;1;Sucre semoule;1000;Gr
+5;1;Eau;250;Gr
+6;1;Crème de tartre;5;Gr
+7;1;Blancs d'oeufs (meringue);375;Gr
+8;1;Pure pâte de cacao;300;Gr
+9;4;Sucre semoule;75;Gr
+10;4;Glucose;125;Gr
+11;4;Crème liquide 1;300;Gr
+12;4;Crème liquide 2;150;Gr
+13;4;Gousses de vanille;1;pièce
+14;4;Beurre de cacao;10;Gr
+15;4;Beurre frais;40;Gr
+16;4;Grain café;45;Gr
+17;4;Eau;15;Gr
+18;4;Café soluble;13;Gr
+19;6;Sucre semoule;20;Gr
+20;6;Glucose;110;Gr
+21;6;Crème liquide 1;300;Gr
+22;6;Fleur de sel;1.5;Gr
+23;6;Crème liquide 2;100;Gr
+24;6;Gousses de vanille;10;Gr
+25;6;Beurre de cacao;10;Gr
+26;6;Beurre frais;20;Gr
+27;16;Vergeoise;150;Gr
+28;16;Flocons d'avoine;100;Gr
+29;16;Beurre mou;180;Gr
+30;16;Farine;160;Gr
+31;16;Sel;2;Gr
+32;16;Levure chimique;3;Gr
+33;16;Raisins blonds;60;Gr
+34;16;Oeufs;48;Gr
+35;16;Muesli;120;Gr
+36;16;Cranberries;60;Gr
+37;64;Pulpe coco;2000;Gr
+38;64;Couverture ivoire;2400;Gr
+39;64;Beurre frais;150;Gr
+40;65;Sucre;1500;Gr
+41;65;Glucose;1200;Gr
+42;65;Eau;300;Gr
+43;65;Crème;2;L
+44;65;Trimoline;200;Gr
+45;65;Sorbitol;80;Gr
+46;65;Sel;8;Gr
+47;65;Beurre;250;Gr
+48;65;Pâte cacao;200;Gr
+49;65;Noisette torréfiée concassée;350;Gr
+50;71;Pâte d'amande 70%;430;Gr
+51;71;Sucre semoule;130;Gr
+52;71;Jaunes d'oeufs;210;Gr
+53;71;Oeufs entiers;150;Gr
+54;71;Blancs d'oeufs;250;Gr
+55;71;Sucre semoule (2);130;Gr
+56;71;Farine;100;Gr
+57;71;Poudre de cacao;50;Gr
+58;71;Pâte de cacao;100;Gr
+59;71;Beurre;100;Gr
+61;73;Lait;1;L
+62;73;Sucre;200;Gr
+63;73;Jaunes d'oeufs;200;Gr
+64;73;Poudre à crème;90;Gr
+65;73;Beurre;150;Gr
+66;73;Gousses de vanille;2;pièce
+67;75;Crème;1;L
+68;75;Jaunes d'oeufs;200;Gr
+69;75;Sucre;175;Gr
+70;75;Lait;150;Gr
+71;75;Gousse vanille;2;pièce
+72;76;Jus de citron;1;kg
+73;76;Oeufs;1.05;kg
+74;76;Sucre;1;kg
+75;76;Gélatine (12 feuilles);144;Gr
+76;76;Zestes citron jaune;5;pièce
+77;76;Zestes citron vert;5;pièce
+78;76;Beurre;1;kg
+79;79;Sucre semoule;300;Gr
+80;79;Eau;150;Gr
+81;79;Glucose;300;Gr
+82;79;Lait concentré sucré;200;Gr
+83;79;Masse gélatine;120;Gr
+84;79;Chocolat Jivara 40%;300;Gr
+85;80;Crème;1200;Gr
+86;80;Sucre;40;Gr
+87;80;Vanille;2;gousses
+88;80;Ivoire;240;Gr
+89;80;Gélatine;8;Gr
+90;86;Sucre;180;Gr
+91;86;Eau;60;Gr
+92;86;Blanc;60;Gr
+93;86;Beurre;280;Gr
+94;88;Sucre semoule;50;Gr
+95;88;Eau;14;Gr
+96;88;Purée de myrtille;22;Gr
+97;88;Masse gélatine;19;Gr
+98;88;Myrtilles billes surgelées;133;Gr
+99;88;Jus de citron jaune;16;Gr
+100;91;Blanc d'oeuf;900;Gr
+101;91;Sucre;900;Gr
+102;91;Jaune d'oeuf;650;Gr
+103;91;Farine;800;Gr
+104;92;Jaune d'oeufs;100;Gr
+105;92;Oeufs;59.25;Gr
+106;92;Sucre (jaunes);112.5;Gr
+107;92;Blanc d'oeufs;171.75;Gr
+108;92;Sucre (blancs);68.75;Gr
+109;92;Farine;87.5;Gr
+110;92;Fécule;31.25;Gr
+111;93;Blancs d'oeufs;600;Gr
+112;93;Crème de tartre;9;Gr
+113;93;Miel;60;Gr
+114;93;Muscovado;180;Gr
+115;93;Cassonade;180;Gr
+116;93;Sucre glace;150;Gr
+117;93;Poudre d'amande;390;Gr
+118;93;Farine T55;240;Gr
+119;93;Poudre à lever;6;Gr
+120;93;Beurre noisette;360;Gr
+121;94;Oeuf;2200;Gr
+122;94;Sucre;1250;Gr
+123;94;Farine;1100;Gr
+124;94;Fécule;100;Gr
+125;95;Crème anglaise;350;Gr
+126;95;Crème montée;450;Gr
+127;95;Masse gélatine;48;Gr
+128;95;Couverture pur Caraïbes;150;Gr
+129;95;Couverture lait;185;Gr
+130;95;Couverture ivoire;225;Gr
+131;96;Pâte d'amande 50%;980;Gr
+132;96;Vanille liquide;36;Gr
+133;96;Gousse de vanille;1;gousse
+134;96;Sel;6;Gr
+135;96;Oeufs entiers;685;Gr
+136;96;Poudre d'amande;72;Gr
+137;96;Fécule;150;Gr
+138;96;Alcool d'amaretto;98;Gr
+139;96;Beurre fondu;360;Gr
+140;97;Oeuf;125;Gr
+141;97;Sucre glace;87.5;Gr
+142;97;Poudre d'amande;87.5;Gr
+143;97;Farine;25;Gr
+144;97;Blanc d'oeuf;162.5;Gr
+145;97;Sucre;40;Gr
+146;97;Beurre;20;Gr
+147;98;Cacao poudre;60;Gr
+148;98;Farine T55;190;Gr
+149;98;Blanc d'oeuf frais;350;Gr
+150;98;Sucre semoule;250;Gr
+151;98;Jaune d'oeuf frais;200;Gr
+152;99;Eau;750;Gr
+153;99;Cassonade;300;Gr
+154;99;Gousses de vanille;2;pièce
+155;100;Beurre pommade;960;Gr
+156;100;Sucre;840;Gr
+157;100;Fleur de sel;20;Gr
+158;100;Levure chimique;90;Gr
+159;100;Jaunes d'oeufs;480;Gr
+160;100;Farine;1260;Gr
+161;101;Beurre fondu tiède;2400;Gr
+162;101;Eau tiède;3000;Gr
+163;101;Lait tiède;3000;Gr
+164;101;Sel;300;Gr
+165;101;Sucre;300;Gr
+166;101;Jaune d'oeuf;200;Gr
+167;101;Rognure;1800;Gr
+168;101;Farine;12000;Gr
+169;101;Beurre de tourage;800;Gr
+170;102;Beurre;750;Gr
+171;102;Fleur de sel;20;Gr
+172;102;Jaunes d'oeufs;40;Gr
+173;102;Sucre semoule;10;Gr
+174;102;Lait frais entier;200;Gr
+175;102;Farine;1000;Gr
+176;103;Lait;375;Gr
+177;103;Eau;370;Gr
+178;103;Sucre semoule;150;Gr
+179;103;Oeufs;200;Gr
+180;103;Poudre à flan;60;Gr
+181;104;Farine;3000;Gr
+182;104;Sucre;360;Gr
+183;104;Sel;45;Gr
+184;104;Levure;90;Gr
+185;104;Oeufs;1650;Gr
+186;104;Eau;100;Gr
+187;104;Beurre;1800;Gr
+188;104;Fleur d'oranger;200;Gr
+189;105;Farine gruau;3000;Gr
+190;105;Sucre;360;Gr
+191;105;Sel;55;Gr
+192;105;Levure;90;Gr
+193;105;Oeufs entiers;450;Gr
+194;105;Lait entier;1050;Gr
+195;105;Beurre;1500;Gr
+196;106;Lait;1;L
+197;106;Farine;500;Gr
+198;106;Sucre;200;Gr
+199;106;Oeufs;330;Gr
+200;106;Jaunes d'oeufs;40;Gr
+201;106;Pincée de sel;3;Gr
+202;106;Beurre noisette froid;240;Gr
+203;107;Lait;0.5;L
+204;107;Gousse de vanille;2;pièce
+205;107;Beurre;500;Gr
+206;107;Farine;460;Gr
+207;107;Blanc d'oeuf;340;Gr
+208;108;Lait;500;Gr
+209;108;Eau;500;Gr
+210;108;Sel;10;Gr
+211;108;Sucre;10;Gr
+212;108;Beurre;450;Gr
+213;108;Farine;550;Gr
+214;108;Oeufs;1;L
+215;109;Beurre pommade;100;Gr
+216;109;Sucre glace;100;Gr
+217;109;Blanc;100;Gr
+218;109;Farine;100;Gr
+219;110;Farine Gruau;650;Gr
+220;110;Sucre Cristal;375;Gr
+221;110;Beurre Mou;520;Gr
+222;110;Oeufs;75;Gr
+223;110;Jaunes d'oeuf;60;Gr
+224;110;Sel Fin;6;Gr
+225;110;Lait (Crème basque);2;L
+226;110;Semoule semi-complète;50;Gr
+227;110;Semoule fine;150;Gr
+228;110;Farine T45;100;Gr
+229;110;Sucre Inverti;500;Gr
+230;110;Oeufs entier (Crème);400;Gr
+231;110;Rhum;40;Gr
+232;110;Crème fleurette;500;Gr
+233;110;Sirop d'orgeat;25;Gr
+234;111;Beurre;150;Gr
+235;111;Sucre glace;60;Gr
+236;111;Fleur de sel;2;Gr
+237;111;Gousse de vanille;0.5;pièce
+238;111;Blanc d'oeuf;24;Gr
+239;111;Farine;180;Gr
+240;112;Beurre;125;Gr
+241;112;Cassonade;60;Gr
+242;112;Muscovado;35;Gr
+243;112;Poudre de noisette brute torréfiée;160;Gr
+244;112;Fleurs de sel;3;Gr
+245;112;Farine T55;110;Gr
+246;113;Gruau;3000;Gr
+247;113;Sucre;360;Gr
+248;113;Sel;45;Gr
+249;113;Levure;90;Gr
+250;113;Oeufs;1.65;L
+251;113;Eau;200;Gr

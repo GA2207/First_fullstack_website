@@ -1,0 +1,102 @@
+﻿id;recette_id;numero_etape;texte_instruction
+1;1;1;Dans la cuve du batteur munie de la feuille, préparer la masse amande en mélangeant le tant-pour-tant, les blancs d'oeufs et les colorants.
+2;1;2;Dans une casserole, cuire le sucre et l'eau à 118°C.
+3;1;3;Verser le sucre cuit sur les blancs et monter jusqu'à refroidissement. Détendre la masse amande avec la meringue italienne.
+4;4;1;Cuire le sucre semoule, le glucose et la crème liquide 1 à 106°C.
+5;4;2;Décuire avec la crème liquide 2 infusée avec la vanille et le grain de café grillé et concassé.
+6;4;3;Ajouter le beurre de cacao, le beurre frais et l'eau + café soluble. Mixer et refroidir.
+7;16;1;Au batteur avec la feuille, mélanger le beurre mou avec la vergeoise et le sel.
+8;16;2;Ajouter les oeufs, puis la farine avec la baking, puis tous les ingrédients restants.
+9;16;3;Faire des boudins d'un kilo, tailler des tranches de 1,5cm à 2cm.
+10;65;1;Cuire le sucre, le glucose et l'eau à 165°C.
+11;65;2;Déglacer avec la crème, la trimoline, le sorbitol et le sel, puis recuire à 117°C.
+12;65;3;Ajouter le beurre, la pâte de cacao et les noisettes torréfiées concassées.
+13;71;1;Détendre la pâte d'amandes avec les oeufs, jaunes et sucre. Monter au ruban.
+14;71;2;Monter les blancs d'oeufs et serrer avec le sucre. Tamiser la poudre de cacao et la farine.
+15;71;3;Fondre la pâte de cacao et le beurre. Mélanger les blancs, incorporer les poudres et étaler.
+17;73;1;Mettre à chauffer le lait avec les gousses de vanille.
+18;73;2;Mélanger les jaunes d'oeufs avec le sucre et la poudre à crème.
+19;73;3;Verser sur le lait puis cuire le tout à ébullition en fouettant.
+20;73;4;Hors du feu, incorporer le beurre en morceaux, émulsionner, refroidir rapidement et conserver au frais.
+21;79;1;Dans une casserole, cuire le sucre semoule, l'eau et le glucose à 103°C (juste une ébullition du sirop).
+22;79;2;Verser sur la masse gélatine, le lait concentré et le chocolat. Mixer et réserver à 4°C.
+23;79;3;Réchauffer à 32°C, mixer et utiliser.
+24;88;1;Cuire l'eau et le sucre à 125°C.
+25;88;2;Décuire avec la purée de myrtille chaude et recuire le tout à 106°C.
+26;88;3;Ajouter la masse gélatine et mélanger avec les myrtilles fraîches ou surgelées et le jus de citron.
+27;91;1;Monter et serrer les blancs avec le sucre.
+28;91;2;Ajouter délicatement les jaunes d'oeufs crus puis la farine.
+29;91;3;Pocher / étaler à 650g par feuille et cuire à 170°C durant 15 minutes.
+30;92;1;Monter ensemble les jaunes, oeufs et le sucre.
+31;92;2;Dans une autre cuve, monter les blancs d'oeufs et le sucre.
+32;92;3;Mélanger les deux préparations délicatement en incorporant la farine et fécule préalablement tamisées ensemble.
+33;92;4;Etaler sur feuille (600g par feuille) et cuire au four à 180°C.
+34;94;1;Verser dans une cuve les oeufs et le sucre, monter au bain-marie puis mettre à monter jusqu'à refroidissement.
+35;94;2;Mélanger délicatement la farine et la fécule préalablement tamisées.
+36;94;3;Mouler en cadre (2 cadres à 2200g) ou feuilles (6 feuilles à 700g) et cuire à 160°C.
+37;95;1;Une fois la crème anglaise cuite, la verser sur la couverture hachée en 3 fois en créant une émulsion.
+38;95;2;A 40°C, ajouter la crème montée.
+39;96;1;Détendre la pâte d'amande avec les oeufs entiers, le sel, la gousse de vanille et la vanille liquide.
+40;96;2;Emulsionner au fouet.
+41;96;3;Incorporer délicatement la fécule et la poudre d'amande.
+42;96;4;Ajouter l'amaretto et le beurre fondu.
+43;96;5;Etaler sur plaque plate et Silpat dans un cadre de 5mm d'épaisseur (800g pour plaque 40x60). Cuire au four ventilé 170°-180°C pendant 12 min.
+44;97;1;Monter les oeufs, le sucre glace, la poudre d'amande et la farine.
+45;97;2;Monter séparément les blancs d'oeufs avec le sucre.
+46;97;3;Incorporer les blancs montés au premier mélange.
+47;97;4;Faire retomber l'appareil avec le beurre fondu.
+48;97;5;Etaler à 550g par feuille et cuire à 180°C durant ~12 minutes.
+49;98;1;Tamiser ensemble le cacao en poudre et la farine.
+50;98;2;Serrer les blancs tiédis avec le sucre semoule.
+51;98;3;Ajouter les jaunes d'oeufs.
+52;98;4;Puis mélanger délicatement avec le cacao et la farine.
+53;98;5;Cuisson environ 190°C.
+54;100;1;Émulsionner le beurre pommade, le sucre, le sel et les jaunes d'œufs.
+55;100;2;Incorporer la farine préalablement tamisée avec la levure chimique.
+56;100;3;Laisser juste mélanger sans corser la pâte, mettre sur plaque à plat, puis placer au froid.
+57;100;4;Cuisson à 170°C durant 12 minutes.
+58;101;1;Dans un rondeau, tiédir le lait, l'eau, le sel, le sucre et le beurre.
+59;101;2;Verser en 3 fois sur la farine, les jaunes et les rognures.
+60;101;3;Pétrir 18 minutes.
+61;101;4;Former des patrons de détrempe (1800g), faire une croix au couteau scie et filmer. Laisser 24h au frigo.
+62;101;5;Donner 6 tours simples.
+63;102;1;Malaxer le beurre pour le rendre homogène.
+64;102;2;Ajouter les ingrédients dans l'ordre en continuant de malaxer. Au moment d'ajouter la farine, malaxer le minimum de temps pour avoir une pâte juste agglomérée.
+65;102;3;Stocker au frais. Abaisser, détailler et remettre au frais 30 min avant de foncer.
+66;103;1;Dans une casserole inox, porter à ébullition le lait et l'eau.
+67;103;2;Dans une seconde casserole, fouetter les œufs, le sucre et la poudre à flan.
+68;103;3;Y verser en mince filet le mélange bouillant en tournant au fouet. Porter à ébullition et retirer du feu après les premiers bouillonnements.
+69;103;4;Verser dans un bac pour laisser refroidir 30 minutes.
+70;103;5;Garnir le fond de tarte cru et cuire au four à 190°C durant 1 heure. Laisser refroidir avant de placer au réfrigérateur pendant 3 heures.
+71;104;1;Mélanger les ingrédients pour former la pâte.
+72;104;2;Étaler au laminoir à 3 mm d'épaisseur.
+73;104;3;Couper en losanges de 5 x 3 cm.
+74;105;1;Dans la cuve, mettre la farine, le sucre, le sel et la levure en séparant bien le sel, le sucre et la levure.
+75;105;2;Pétrir en 1er vitesse en incorporant les œufs dès le départ puis le lait.
+76;105;3;Quand la pâte se décolle, ajouter le beurre tempéré puis passer en 3ème vitesse jusqu'à décollement (max 22°C).
+77;105;4;Stocker en bac, rabattre une fois et laisser au réfrigérateur toute la nuit.
+78;105;5;Cuisson : enfourner à 180°C puis baisser à 160°C.
+79;112;1;Dans la cuve du batteur muni de la feuille, mélanger tous les ingrédients ensemble jusqu'à l'obtention d'une pâte.
+80;112;2;Passer au travers d'un cribble.
+81;112;3;Cuire au four ventilé à 145°C durant 20 minutes.
+82;113;1;Étaler la pâte à brioche à 5mm d'épaisseur au laminoir et détailler avec un cercle à entremet de 18cm.
+83;113;2;Mettre en cercle et placer en étuve. Une fois poussée, faire 6 trous au dos d'un couteau.
+84;113;3;Disposer des cubes de 1cm dans chaque trou et saupoudrer de sucre.
+85;113;4;Enfourner à 160°C pendant 5 min. Insérer du beurre fondu et 55g de crème liquide dans les trous, saupoudrer de sucre et finir la cuisson 5 min.
+86;2;1;Cuire en four à sole à 140°C environ 12 minutes.
+87;3;1;Cuire en four ventilé à 140°C environ 12 minutes.
+88;16;4;Cuisson 180°C deux fois 7 min.
+89;17;1;Cuire à 185°C 4min puis 5 min.
+90;18;1;Cuire à 160°C au four ventilé durant 15 minutes.
+91;29;1;20 min 160°C Four ventilé.
+92;32;1;Cuire au four à 140°C pendant 20 minutes.
+93;36;1;Cuisson à 160°C durant 20 minutes et sécher 15 minutes à 150°C.
+94;40;1;Cuire à 160°C durant 40 minutes.
+95;42;1;Cuire une anglaise à 85°C.
+96;45;1;Cuire une anglaise à 85°C.
+97;47;1;Cuire le sucre, l'eau et le glucose à ébullition.
+98;71;4;Cuire à 180°C au four ventilé durant 14 minutes.
+99;72;1;Cuire à 170°C durant 20 minutes.
+100;75;1;Cuisson 90°C.
+101;82;1;Cuire à 85°C.
+102;86;1;Cuisson du sucre et de l'eau à 121°C.
