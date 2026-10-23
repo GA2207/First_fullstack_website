@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe manager</title>
+  </head>
+  <body>
+    <header>
+      <h1>Recipe manager</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>New recipe</h2>
+        <form id="recipe-form">
+          <label>
+            Name
+            <input name="name" type="text" required />
+          </label>
+          <label>
+            Preparation time (min)
+            <input name="preparationTime" type="number" min="1" step="1" required />
+          </label>
+          <label>
+            Difficulty
+            <select name="difficulty" required>
+              <option value="easy">Easy</option>
+              <option value="medium">Medium</option>
+              <option value="hard">Hard</option>
+            </select>
+          </label>
+          <label>
+            Ingredients (one per line)
+            <textarea name="ingredients" rows="5" required></textarea>
+          </label>
+          <label>
+            Instructions
+            <textarea name="instructions" rows="5" required></textarea>
+          </label>
+          <button type="submit">Add recipe</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Recipes</h2>
+        <p id="status"></p>
+        <ul id="recipe-list"></ul>
+      </section>
+    </main>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
