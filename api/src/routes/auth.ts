@@ -7,7 +7,6 @@ import { verifyToken, AuthenticatedRequest } from '../middlewares/auth';
 const router = Router();
 const JWT_SECRET = process.env.JWT_SECRET || 'epitech_super_secret_key_2026';
 
-// Interface pour typer les résultats de la table users
 interface UserRow {
   id: number;
   email: string;
@@ -15,7 +14,6 @@ interface UserRow {
   role: 'admin' | 'freemium' | 'premium' | 'professionnel';
 }
 
-// Route de Connexion (Login)
 router.post('/login', (req: Request, res: Response): void => {
   const { email, password } = req.body;
 
@@ -31,14 +29,12 @@ router.post('/login', (req: Request, res: Response): void => {
     return;
   }
 
-  // Génération du JWT
   const token = jwt.sign(
     { id: user.id, email: user.email, role: user.role },
     JWT_SECRET,
     { expiresIn: '24h' }
   );
 
-  // Stockage du token dans un cookie HttpOnly sécurisé
   res.cookie('token', token, {
     httpOnly: true,
     secure: process.env.NODE_ENV === 'production',
@@ -52,13 +48,11 @@ router.post('/login', (req: Request, res: Response): void => {
   });
 });
 
-// Route de Déconnexion (Logout)
 router.post('/logout', (req: Request, res: Response): void => {
   res.clearCookie('token');
   res.status(200).json({ message: 'Déconnexion réussie' });
 });
 
-// Route pour récupérer le profil de l'utilisateur connecté
 router.get('/me', verifyToken, (req: AuthenticatedRequest, res: Response): void => {
   res.status(200).json({ user: req.user });
 });

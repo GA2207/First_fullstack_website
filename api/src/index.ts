@@ -6,6 +6,7 @@ import recipesRouter from "./routes/recipes";
 import cookieParser from 'cookie-parser';
 import authRoutes from './routes/auth';
 import { initDatabase } from "./database";
+import businessRoutes from './routes/business';
 
 config({ quiet: true });
 
@@ -21,6 +22,7 @@ app.use(cookieParser());
 app.use('/api/auth', authRoutes);
 app.use("/recipes", recipesRouter);
 app.use("/categories", categoriesRouter);
+app.use('/api', businessRoutes);
 
 app.use((req: Request, res: Response) => {
     res.status(404).json({ error: "route not found" });

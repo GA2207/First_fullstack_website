@@ -46,7 +46,7 @@ function initDatabase() {
       FOREIGN KEY (recette_id) REFERENCES recettes(id)
     );
   `);
-    console.log('✅ Tables SQLite créées avec succès.');
+    console.log('Tables SQLite créées avec succès.');
     const userCountResult = db.prepare('SELECT COUNT(*) as count FROM users').get();
     if (userCountResult.count === 0) {
         const hashedPassword = bcrypt_1.default.hashSync('password123', 10);
@@ -55,7 +55,7 @@ function initDatabase() {
         insertUser.run('freemium@epitech.eu', hashedPassword, 'freemium');
         insertUser.run('premium@epitech.eu', hashedPassword, 'premium');
         insertUser.run('pro@epitech.eu', hashedPassword, 'professionnel');
-        console.log('✅ Utilisateurs de test créés (admin, freemium, premium, pro) avec le mot de passe : password123');
+        console.log('Utilisateurs de test créés (admin, freemium, premium, pro) avec le mot de passe : password123');
     }
     // 3. Seeding des CSV (si la table recettes est vide)
     const recipeCountResult = db.prepare('SELECT COUNT(*) as count FROM recettes').get();
@@ -93,10 +93,10 @@ function importCsvData() {
                     }
                 }
             }
-            console.log('✅ Recettes importées depuis recettes.csv');
+            console.log('Recettes importées depuis recettes.csv');
         }
         else {
-            console.warn('⚠️ Fichier recettes.csv introuvable.');
+            console.warn('Fichier recettes.csv introuvable.');
         }
         const ingredientsPath = findFile('recette_ingredients.csv');
         if (ingredientsPath) {
@@ -115,10 +115,10 @@ function importCsvData() {
                     }
                 }
             }
-            console.log('✅ Ingrédients importés depuis recette_ingredients.csv');
+            console.log('Ingrédients importés depuis recette_ingredients.csv');
         }
         else {
-            console.warn('⚠️ Fichier recette_ingredients.csv introuvable.');
+            console.warn('Fichier recette_ingredients.csv introuvable.');
         }
         const instructionsPath = findFile('instructions.csv');
         if (instructionsPath) {
@@ -138,10 +138,10 @@ function importCsvData() {
                     }
                 }
             }
-            console.log('✅ Instructions importées depuis instructions.csv');
+            console.log('Instructions importées depuis instructions.csv');
         }
         else {
-            console.warn('⚠️ Fichier instructions.csv introuvable.');
+            console.warn('Fichier instructions.csv introuvable.');
         }
     }
     catch (error) {

@@ -11,6 +11,7 @@ const recipes_1 = __importDefault(require("./routes/recipes"));
 const cookie_parser_1 = __importDefault(require("cookie-parser"));
 const auth_1 = __importDefault(require("./routes/auth"));
 const database_1 = require("./database");
+const business_1 = __importDefault(require("./routes/business"));
 (0, dotenv_1.config)({ quiet: true });
 (0, database_1.initDatabase)();
 const app = (0, express_1.default)();
@@ -21,6 +22,7 @@ app.use((0, cookie_parser_1.default)());
 app.use('/api/auth', auth_1.default);
 app.use("/recipes", recipes_1.default);
 app.use("/categories", categories_1.default);
+app.use('/api', business_1.default);
 app.use((req, res) => {
     res.status(404).json({ error: "route not found" });
 });
