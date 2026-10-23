@@ -1,0 +1,17 @@
+
+services:
+  api:
+    build: ./api
+    ports:
+      - "3000:3000"
+    volumes:
+      # Persistance de la base de données SQLite générée
+      - ./api/database.sqlite:/app/database.sqlite
+      # Montage des fichiers CSV sources pour la migration automatique au premier lancement
+      - ./recettes.csv:/app/recettes.csv
+      - ./recette_ingredients.csv:/app/recette_ingredients.csv
+      - ./instructions.csv:/app/instructions.csv
+    environment:
+      - PORT=3000
+      - NODE_ENV=production
+      - JWT_SECRET=epitech_super_secret_key_2026
