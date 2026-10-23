@@ -7,7 +7,6 @@ const dbPath = path.resolve(__dirname, '../database.sqlite');
 const db = new Database(dbPath);
 
 export function initDatabase(): void {
-  // 1. Création des tables
   db.exec(`
     CREATE TABLE IF NOT EXISTS users (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -46,7 +45,6 @@ export function initDatabase(): void {
 
   console.log('✅ Tables SQLite créées avec succès.');
 
-  // 2. Seeding des utilisateurs par défaut (si la table est vide)
   const userCountResult = db.prepare('SELECT COUNT(*) as count FROM users').get() as { count: number };
   if (userCountResult.count === 0) {
     const hashedPassword = bcrypt.hashSync('password123', 10);
@@ -73,7 +71,6 @@ function importCsvData(): void {
   };
 
   try {
-    // Helper pour localiser les CSV (dans api/ ou à la racine du repo)
     const findFile = (filename: string): string | null => {
       const p1 = path.resolve(__dirname, `../${filename}`);
       if (fs.existsSync(p1)) return p1;
@@ -82,7 +79,6 @@ function importCsvData(): void {
       return null;
     };
 
-    // Importation recettes.csv
     const recettesPath = findFile('recettes.csv');
     if (recettesPath) {
       const content = fs.readFileSync(recettesPath, 'utf-8');
@@ -105,7 +101,6 @@ function importCsvData(): void {
       console.warn('⚠️ Fichier recettes.csv introuvable.');
     }
 
-    // Importation recette_ingredients.csv
     const ingredientsPath = findFile('recette_ingredients.csv');
     if (ingredientsPath) {
       const content = fs.readFileSync(ingredientsPath, 'utf-8');
@@ -129,7 +124,6 @@ function importCsvData(): void {
       console.warn('⚠️ Fichier recette_ingredients.csv introuvable.');
     }
 
-    // Importation instructions.csv
     const instructionsPath = findFile('instructions.csv');
     if (instructionsPath) {
       const content = fs.readFileSync(instructionsPath, 'utf-8');

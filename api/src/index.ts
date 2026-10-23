@@ -3,15 +3,22 @@ import cors from "cors";
 import { config } from "dotenv";
 import categoriesRouter from "./routes/categories";
 import recipesRouter from "./routes/recipes";
+import cookieParser from 'cookie-parser';
+import authRoutes from './routes/auth';
+import { initDatabase } from "./database";
 
 config({ quiet: true });
+
+initDatabase();
 
 const app = express();
 const port = Number(process.env.PORT ?? 3000);
 
 app.use(cors());
 app.use(express.json());
+app.use(cookieParser());
 
+app.use('/api/auth', authRoutes);
 app.use("/recipes", recipesRouter);
 app.use("/categories", categoriesRouter);
 
